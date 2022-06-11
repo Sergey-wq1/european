@@ -1,0 +1,63 @@
+.root {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &_firstBlock {
+    display: flex;
+    column-gap: 9px;
+  }
+
+  &_logo {
+    cursor: pointer;
+  }
+
+  &_mainText {
+    width: 144px;
+    height: 49px;
+  }
+
+  &_text1 {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 27px;
+    align-items: center;
+    color: #2d2d2d;
+  }
+
+  &_text2 {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+    align-items: center;
+    color: #2d2d2d;
+  }
+
+  &_secondBlock {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 46px;
+  }
+
+  &_link {
+    cursor: pointer;
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    transition: 0.2s;
+    line-height: 27px;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.5);
+
+    &:hover {
+      transition: 0.4s;
+      color: rgba(45, 45, 45, 0.8);
+    }
+  }
+}

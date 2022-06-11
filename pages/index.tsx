@@ -1,9 +1,10 @@
-import type { NextPage } from 'next';
+import { NextPageWithLayout } from '../src/types/next';
+import getMainLayout from '../src/helpers/getMainLayout';
 
-const Home: NextPage = () => {
-  return (
-      <div></div>
-  );
+const Home: NextPageWithLayout = () => {
+  return <div></div>;
 };
+
+Home.getLayout = getMainLayout;
 
 export default Home;

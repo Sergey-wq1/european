@@ -26,4 +26,7 @@ module.exports = {
     browser: true,
     es6: true,
   },
+  rules: {
+    'react/display-name': 'off',
+  },
 };

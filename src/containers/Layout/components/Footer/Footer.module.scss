@@ -1,0 +1,75 @@
+.root {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  height: 273px;
+  background: #2D2D2D;
+
+  &_footer {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 237px;
+    padding: 33px 78px 31px 97px;
+    max-width: 1105px;
+    margin: 0 auto;
+  }
+
+  &_cities {
+    margin-top: 31px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    row-gap: 2px;
+    max-width: 141px;
+
+    > div {
+      color: rgba(250, 250, 250, .5);
+    }
+  }
+
+  &_links {
+    display: flex;
+    column-gap: 50px;
+
+    > div {
+      cursor: pointer;
+      color: rgba(250, 250, 250, .5);
+    }
+  }
+
+  &_logo_container {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+    width: 345px;
+  }
+
+  &_mainText {
+    width: 144px;
+    height: 49px;
+  }
+
+  &_text1 {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 27px;
+    align-items: center;
+    color: rgba(250, 250, 250, .5);
+  }
+
+  &_text2 {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 27px;
+    align-items: center;
+    white-space: nowrap;
+    color: rgba(250, 250, 250, .5);
+  }
+}

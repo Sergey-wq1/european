@@ -44,7 +44,7 @@ const Footer: FC<FooterProps> = (props) => {
               />
             </div>
             <div className={classNames.root_mainText}>
-              <div className={classNames.root_text1}>European</div>
+              <div className={classNames.root_text1}>Russian</div>
               <div className={classNames.root_text2}>
                 University of Arts
               </div>
